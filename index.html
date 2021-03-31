@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problem #1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins;
+        }
+
+        .container {
+            /*            border: solid red;*/
+            background: url(https://images.unsplash.com/photo-1449177009399-be6867ef0505?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .header {
+            /*            border: solid blue;*/
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .header ul li {
+            margin: 30px;
+        }
+
+        .header ul li a {
+            text-decoration: none;
+            color: #24252A;
+            font-weight: 800;
+            /*            background: black;*/
+            padding: 5px 10px;
+            transition: all 0.7s ease;
+        }
+
+        .header ul li a:hover {
+            color: orangered;
+            border-radius: 25px;
+            background: black;
+            
+
+        }
+
+        .header button {
+            /*            border: solid;*/
+            cursor: pointer;
+            margin: 0 20px;
+            padding: 10px 20px;
+            background: red;
+            border: 2px solid aquamarine;
+            border-radius: 20px;
+            color: #fff;
+            font-weight: 700;
+            transition: all 0.5s ease;
+        }
+
+        .header button:hover {
+            background: yellowgreen;
+            color: black;
+            font-size: 18px;
+            outline: none;
+        }
+
+        .container .content {
+            text-align: center;
+            position: relative;
+            top: 200px;
+            font-size: 1.5em;
+        }
+
+        .content h1 {
+            font-weight: lighter;
+        }
+
+        .footer {
+            background: rgba(0, 0, 0, 0.4);
+            height: 100px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <!--           <header>    -->
+            <div class="header">
+                <ul>
+                   <li><a href="#">Iam<span style="color: #1589FF">Gauhar</span></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="#">Find us</a></li>
+                </ul>
+                <a href="login.html"><button>Login</button></a>
+            </div>
+            <!--            end of header-->
+            <div class="content">
+                <h1><b>Hey Gauhar</b></h1>
+                <h1>Heading one or two perhaps</h1>
+            </div>
+        </div>
+        <div class="footer">
+            copyright&copy;2022
+        </div>
+    </div>
+</body></html>
