@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Poppins&display=swap');
+/*font-family: 'Kiwi Maru', serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/02/14/26/winter-landscape-2571788_960_720.jpg);
+ background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.wrapper{
+/*    border: 10px solid black;*/
+    
+}
+.header{
+/*    width: 99%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*    border: solid;*/
+}
+.header ul{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+/*    margin-right: 500px;*/
+}
+.header ul li{
+    margin: 30px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.logo{
+    margin: auto 20px;
+     background: #007AF3;
+/*    border: 1px solid;*/
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+span{
+   
+    color: orangered;
+    
+}
+.logo:hover{
+    border: 1px solid #007AF3;
+    color: #007AF3;
+    background: white;
+}
+.container{
+    width: 99%;
+/*    border: solid;*/
+}
+.box{
+/*    border: 1px solid;*/
+   width: 21%;
+    
+/*    height: 400px;*/
+    float: left;
+    margin: 20px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 4px 0 25px rgba(0,0,0,0.5);
+    transition: transform .3s;
+    cursor: pointer;
+    align-items: center;
+    
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+h2{
+    margin-bottom: 10px;
+}
+.box .date{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-style: italic;
+    color: gray;
+    font-size: 12px;
+
+    
+}
+.box p{
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    
+}
+.box .btn{
+    position: relative;
+    left: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+    display: block;
+    width: 80px;
+    margin-top: 10px
+    
+}
+.box a{
+    margin-bottom: 10px;
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    
+}
+.box:hover{
+    transform: translateY(-10px);
+}
+.btn:hover{
+    background: #65ec86 ;
+    color: #ffff6a;
+    
+}
+@media only screen and (max-width: 1300px) {
+    .container{
+        width: 100%
+    }
+     .box{
+          width: 44%;
+      }
+    
+    body {
+/*            padding: 10px;*/
+  }
+    @media only screen and (max-width: 768px) {
+    .container{
+        width: 100%
+    }
+        .header{
+/*            width: 55%;*/
+        }
+     .box{
+          width: 99%;
+         
+      }
+        body{
+/*            padding-left: 70px;*/
+/*            margin: -50px;*/
+        }
+}
